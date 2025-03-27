@@ -1,0 +1,97 @@
+/* định nghĩa body */
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+/* Định dạng form đăng kí */
+form {
+  width: 400px;
+  padding: 25px;
+  background-color: orange;
+  border-radius: 10px;
+  box-shadow: 0 0 10px black;
+}
+
+/* Định dạng khoảng cách các form-group */
+.form-group {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 10px 0;
+}
+
+/* Định dạng cho 1 điều khiển */
+.form-control {
+  width: 68%;
+  padding: 7px;
+  outline: none;
+  border-radius: 8px;
+  border: 1px solid black;
+  background-color: blanchedalmond;
+}
+
+/* Ghi đè định dạnh ngành học - select */
+#nganhhoc {
+  width: 72%;
+}
+
+/* h2 */
+h2 {
+  text-align: center;
+  font-size: 30px;
+  font-family: sans-serif;
+  text-transform: uppercase;
+}
+
+/* form-group-radio */
+.radio{
+    margin-left: 30px;
+}
+.radio>label{
+    margin-left: 15px;
+}
+.form-group-radio{
+    display: flex;
+}
+
+/* Định dạng nhãn trên điều khiển */
+.form-group > label {
+  font-weight: bold;
+}
+
+
+
+/* Định dạng cho điều khiển khi nhận control chuột */
+.form-control:focus {
+  background-color: floralwhite;
+  border: 1px solid blueviolet;
+  box-shadow: 0 0 10px white;
+}
+
+/* Định dạng cho vị trí button */
+.button-dk {
+  text-align: center;
+  margin-top: 15px;
+}
+
+/* Định dạng cho button */
+.form-button {
+  padding: 10px 30px;
+  margin: 0 25px;
+  outline: none;
+  border: 1px solid black;
+  border-radius: 5px;
+  background-color: skyblue;
+}
+
+/* Định dạng các nút bấm khi di chuột lên */
+.form-button:hover {
+  background-color: cornflowerblue;
+  box-shadow: 0 0 10px white;
+}
+
+
+

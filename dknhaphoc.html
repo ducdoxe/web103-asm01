@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="vi">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="dknhaphoc.css">
+    <title>Document</title>
+  </head>
+  <body>
+    <form>
+        <h2>Phiếu đăng kí học</h2>
+      <!-- txt họ và tên -->
+      <div class="form-group">
+        <label>Họ và tên:</label>
+        <input type="text" class="form-control" required />
+      </div>
+
+      <!-- txt số điện thoại -->
+      <div class="form-group">
+        <label>Số điện thoại:</label>
+        <input type="text" class="form-control" required />
+      </div>
+
+      <!-- txt Email -->
+      <div class="form-group">
+        <label>Email:</label>
+        <input type="email" class="form-control" required />
+      </div>
+
+      <!-- Date - ngày sinh -->
+      <div class="form-group">
+        <label>Email:</label>
+        <input type="date" class="form-control" />
+      </div>
+
+      <!-- giới tính - select -->
+      <div class="form-group">
+        <label for="nganhhoc">Ngành học:</label>
+        <select name="" id="nganhhoc" class="form-control" >
+          <option value="id">Công nghệ thông tin</option>
+          <option value="id">Thiết kế đồ hoạ</option>
+          <option value="id">Công nghệ kĩ thuật cơ khí</option>
+          <option value="id">Quản trị kinh doanh</option>
+        </select>
+      </div>
+
+      <!-- radio - giới tính -->
+      <div class="form-group-radio">
+        <label style="font-weight: bold;">Giới tính</label>
+        <div class="radio">
+            <label> <input type="radio" name="gt" checked /> Nam</label>
+            <label> <input type="radio" name="gt"/> Nữ </label>
+        </div>
+      </div><hr>
+
+      <!-- button -->
+       <div class="button-dk">
+        <button class="form-button">Gửi</button>
+        <button class="form-button">Xoá</button>
+       </div>
+    </form>
+  </body>
+</html>

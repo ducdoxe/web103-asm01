@@ -1,0 +1,114 @@
+/* Định nghĩa body */
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Định nghĩa khung web */
+.container{
+    width: 98%;
+    height: 900px;
+    margin: 0 auto;
+}
+
+/* Định nghĩa cho background web */
+.container>header{
+    background-image: url(img/image.png);
+    background-size: 100% 100%;
+    height: 0px;
+    padding-bottom: 25%;
+}
+
+/* định nghĩa menu */
+.menu{
+    background-color: orangered;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Định nghĩa thẻ li */
+.menu ul li{
+    display: inline-block;
+}
+
+/* Định nghĩa thẻ a */
+.menu li a{
+    text-decoration: none;
+    padding: 0 20px;
+    text-transform: uppercase;
+    color: white;
+    font-weight: bold;
+}
+
+/* Định nghĩa khi di chuột vào thẻ a */
+.menu ul li a:hover{
+    color: yellow;
+}
+
+/* Định nghĩa article */
+.container>article{
+    background-color: white;
+    width: 75%;
+    height: 500px;
+    float: right;
+}
+
+/* Định nghĩa aside */
+.container>aside{
+    width: 25%;
+    float: left;
+    height: 500px;
+}
+
+/* Định nghĩa menu-con */
+.menu-con{
+    padding: 0px;
+    margin: 5px;
+    list-style: none;
+    border-radius: 5px;
+    box-shadow: 0 0 5px gray;
+}
+
+/*Định nghĩa thẻ a cho menu-con */
+.menu-con a{
+    background: url(img/next.png) no-repeat 10px center;
+    background-size: 5%;
+    text-decoration: none;
+    color: orangered;   
+    display: block;
+    border-bottom: 1px solid gray;
+    font-size: large;
+    padding: 8px 5px 8px 35px;  
+    border-radius: 5px;
+}
+
+/* Định nghĩa khi di chuột lên thẻ a menu-con*/
+.menu-con a:hover{
+ background: url(img/check.png) no-repeat 10px center;
+ background-size: 5%;
+ color: white;
+ background-color: orangered;
+}
+
+/* Định nghĩa footer */
+.container>footer{
+    clear: both;
+    background-color: rgb(38,43, 96);
+    width: 100%;height: 40px;
+}
+
+/* định nghĩa iframe */
+iframe[name=_page]{
+    width: 100%;
+    min-height: 500px;
+}
+
+/* Định dạng footer */
+.footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
