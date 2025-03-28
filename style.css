@@ -7,7 +7,7 @@ body{
 
 /* Định nghĩa khung web */
 .container{
-    width: 98%;
+    width: 100%;
     height: 900px;
     margin: 0 auto;
 }
@@ -95,7 +95,7 @@ body{
 /* Định nghĩa footer */
 .container>footer{
     clear: both;
-    background-color: rgb(38,43, 96);
+    background-color: rgb(255, 69, 0);
     width: 100%;height: 40px;
 }
 

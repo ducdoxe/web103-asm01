@@ -10,7 +10,7 @@ body {
 form {
   width: 400px;
   padding: 25px;
-  background-color: orange;
+  background-color: rgb(255, 69, 0);
   border-radius: 10px;
   box-shadow: 0 0 10px black;
 }
@@ -60,6 +60,7 @@ h2 {
 /* Định dạng nhãn trên điều khiển */
 .form-group > label {
   font-weight: bold;
+  color: white;
 }
 
 
@@ -81,17 +82,20 @@ h2 {
 .form-button {
   padding: 10px 30px;
   margin: 0 25px;
-  outline: none;
-  border: 1px solid black;
+
+  
   border-radius: 5px;
-  background-color: skyblue;
+  background-color: rgb(27, 20, 100);
+  color: white;
 }
 
 /* Định dạng các nút bấm khi di chuột lên */
 .form-button:hover {
-  background-color: cornflowerblue;
-  box-shadow: 0 0 10px white;
+  background-color: rgb(0, 128, 0);
+  
 }
 
-
+label,h2{
+  color:white;
+}
 
