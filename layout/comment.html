@@ -3,9 +3,89 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        * {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+  background-color: #f4f7f9;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.feedback-container {
+  background-color: white;
+  padding: 30px;
+  border-radius: 15px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+  width: 100%;
+  max-width: 500px;
+}
+
+h1 {
+  text-align: center;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+label {
+  margin-top: 10px;
+  margin-bottom: 5px;
+  color: #555;
+}
+
+input, textarea {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  font-size: 16px;
+}
+
+button {
+  margin-top: 20px;
+  padding: 12px;
+  background-color: #007BFF;
+  color: white;
+  font-size: 16px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+    </style>
     <title>Document</title>
 </head>
 <body>
-    <h2>Góp ý</h2>
+    <div class="feedback-container">
+        <h1>Góp Ý</h1>
+        <form action="#" method="post">
+          <label for="name">Họ và tên:</label>
+          <input type="text" id="name" name="name" required>
+    
+          <label for="email">Email:</label>
+          <input type="email" id="email" name="email" required>
+    
+          <label for="message">Nội dung góp ý:</label>
+          <textarea id="message" name="message" rows="5" required></textarea>
+    
+          <button type="submit">Gửi góp ý</button>
+        </form>
+      </div>
 </body>
 </html>
