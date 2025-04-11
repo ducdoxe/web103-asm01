@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
-    <title>FPT Polytechnic</title>
+    <title>ASM - 01</title>
 </head>
 <body>
     <div class="container">
@@ -13,22 +13,32 @@
         <!-- menu -->
         <nav class="menu">
             <ul>
-                <li><a href="home.html" target="_page">Trang chủ</a></li>
-                <li><a href="about.html" target="_page">Giới thiệu</a></li>
-                <li><a href="contac.html" target="_page">Liên hệ</a></li>
-                <li><a href="comment.html" target="_page">Góp ý</a></li>
-                <li><a href="ask.html" target="_page">Hỏi đáp</a></li>
+                <li><a href="./layout/home.html" target="_page">Trang chủ</a></li>
+                <li>
+                    <a href="./layout/about.html" target="_page">Giới thiệu</a>
+                    <ul class="gioithieu-con">
+                        <li>
+                            <a href="">Sơ đồ tổ chức</a>
+                        </li>
+                        <li>
+                            <a href="">Thư viện</a>
+                        </li>
+                    </ul>
+                </li>
+                <li><a href="./layout/contact.html" target="_page">Liên hệ</a></li>
+                <li><a href="./layout/comment.html" target="_page">Góp ý</a></li>
+                <li><a href="./layout/ask.html" target="_page">Hỏi & đáp</a></li>
             </ul>
         </nav>
 
         <!-- article -->
          <article class="article">
-            <iframe name="_page" src="home.html" frameborder="0"></iframe>
+            <iframe  src="./layout/home.html" frameborder="0" name="_page"></iframe>
          </article>
 
          <aside class="aside">
             <ul class="menu-con">
-                <li><a href="dknhaphoc.html" target="_page">Đăng kí nhập học</a></li>
+                <li><a href="./layout/home.html" target="_page">Đăng kí nhập học</a></li>
                 <li><a href="#">Thông tin tuyển sinh</a></li>
                 <li><a href="#">Xét học bổng</a></li>
                 <li><a href="#">Nộp hồ sơ online</a></li>
